@@ -17,6 +17,6 @@ function calcular() {
     if (result) {
         document.getElementById('display').innerHTML = eval(result);
     } else {
-        document.getElementById('display').innerHTML = 'nada...';
+        document.getElementById('display').innerHTML = 'ERRO';
     }
 }

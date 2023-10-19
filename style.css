@@ -72,6 +72,6 @@ button {
     background-color: #D9D9D9;
 }
 
-.button:hover {
+.operator:hover,.number:hover {
     background-color: #a0c0e5;
 }
