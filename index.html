@@ -1,50 +1,49 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Calculadora</title>
-</head>
+  </head>
 
-<body>  
+  <body>
     <div id="calc">
-        <p id="display"></p>
-        <table>
-            <tr class="buttons">
-                <td><button class="operator" id="C" onclick="clean()">C</button></td>
-                <td><button class="operator" onclick="insert('%')">%</button></td>
-                <td><button class="operator" onclick="insert('/')">÷</button></td>
-                <td><button class="operator" onclick="insert('**')">^</button></td>
-            </tr>
-            <tr class="buttons">
-                <td><button class="number" onclick="insert('7')">7</button></td>
-                <td><button class="number" onclick="insert('8')">8</button></td>
-                <td><button class="number" onclick="insert('9')">9</button></td>
-                <td><button class="operator" onclick="insert('*')">x</button></td>
-            </tr>
-            <tr class="buttons">
-                <td><button class="number" onclick="insert('4')">4</button></td>
-                <td><button class="number" onclick="insert('5')">5</button></td>
-                <td><button class="number" onclick="insert('6')">6</button></td>
-                <td><button class="operator" onclick="insert('-')">-</button></td>
-            </tr>
-            <tr class="buttons">
-                <td><button class="number" onclick="insert(1)">1</button></td>
-                <td><button class="number" onclick="insert(2)">2</button></td>
-                <td><button class="number" onclick="insert(3)">3</button></td>
-                <td><button class="operator" onclick="insert('+')">+</button></td>
-            </tr>
-            <tr class="buttons">
-                <td><button class="number" onclick="insert(0)">0</button></td>
-                <td><button class="operator" onclick="insert('.')">.</button></td>
-                <td><button class="operator" onclick="back()">⌫</button></td>
-                <td><button class="operator" onclick="calcular()">=</button></td>
-            </tr>
-        </table>
+      <p id="display"></p>
+      <table>
+        <tr class="buttons">
+          <td><button class="operator" id="C" onclick="clean()">C</button></td>
+          <td><button class="operator" onclick="insert('%')">%</button></td>
+          <td><button class="operator" onclick="insert('/')">÷</button></td>
+          <td><button class="operator" onclick="insert('**')">^</button></td>
+        </tr>
+        <tr class="buttons">
+          <td><button class="number" onclick="insert('7')">7</button></td>
+          <td><button class="number" onclick="insert('8')">8</button></td>
+          <td><button class="number" onclick="insert('9')">9</button></td>
+          <td><button class="operator" onclick="insert('*')">x</button></td>
+        </tr>
+        <tr class="buttons">
+          <td><button class="number" onclick="insert('4')">4</button></td>
+          <td><button class="number" onclick="insert('5')">5</button></td>
+          <td><button class="number" onclick="insert('6')">6</button></td>
+          <td><button class="operator" onclick="insert('-')">-</button></td>
+        </tr>
+        <tr class="buttons">
+          <td><button class="number" onclick="insert(1)">1</button></td>
+          <td><button class="number" onclick="insert(2)">2</button></td>
+          <td><button class="number" onclick="insert(3)">3</button></td>
+          <td><button class="operator" onclick="insert('+')">+</button></td>
+        </tr>
+        <tr class="buttons">
+          <td><button class="number" onclick="insert(0)">0</button></td>
+          <td><button class="operator" onclick="insert('.')">.</button></td>
+          <td><button class="operator" onclick="back()">⌫</button></td>
+          <td><button class="operator" onclick="calcular()">=</button></td>
+          <td></td>
+        </tr>
+      </table>
     </div>
     <script src="calc.js"></script>
-</body>
-
+  </body>
 </html>
